@@ -1,0 +1,1 @@
+SELECT * FROM tb_matinhos WHERE preco < 500;

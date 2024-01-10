@@ -1,0 +1,1 @@
+SELECT nome, poder_ataque, poder_defesa FROM tb_personagens WHERE nome LIKE "%C%";

@@ -1,0 +1,12 @@
+CREATE TABLE tb_estudantes(
+id BIGINT AUTO_INCREMENT, 
+nome VARCHAR(255) NOT NULL,
+data_prova1 DATE NOT NULL,
+turma VARCHAR(1) NOT NULL,
+disciplina VARCHAR(255) NOT NULL,
+nota DECIMAL NOT NULL,
+
+PRIMARY KEY(id)
+);
+
+

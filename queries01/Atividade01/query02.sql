@@ -1,0 +1,13 @@
+CREATE database db_RH;
+USE db_RH;
+
+CREATE TABLE tb_colaboradores(
+id BIGINT AUTO_INCREMENT, 
+nome VARCHAR(255) NOT NULL,
+cpf INT NOT NULL,
+dataAdmissao DATE NOT NULL,
+salario DECIMAL NOT NULL,
+cargo VARCHAR (255) NOT NULL,
+
+PRIMARY KEY(id)
+);

@@ -1,0 +1,1 @@
+SELECT nome, poder_ataque FROM tb_personagens WHERE poder_ataque > 2000;

@@ -1,0 +1,6 @@
+CREATE TABLE tb_classes(
+id BIGINT AUTO_INCREMENT, 
+nome VARCHAR(255) NOT NULL,
+descricao_personagem VARCHAR(255) NULL,
+PRIMARY KEY (id)
+);

@@ -1,0 +1,13 @@
+CREATE TABLE tb_matinhos(
+id BIGINT AUTO_INCREMENT, 
+nome VARCHAR(255) NOT NULL,
+categoria VARCHAR(50) NOT NULL,
+tamanho VARCHAR(50) NOT NULL,
+preco DECIMAL(10,2) NOT NULL,
+origem VARCHAR(50),
+PRIMARY KEY(id)
+);
+
+SELECT * FROM tb_matinhos;
+
+

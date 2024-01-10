@@ -1,0 +1,1 @@
+SELECT nome, tamanho, preco FROM tb_pizzas WHERE preco > 45.00;
